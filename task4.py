@@ -14,5 +14,5 @@ def binar(number, n):
         bin.insert(n, number%2)  
         return binar(number//2, n-1)
 
-number = binar(int(input('->')), -1)
+number = binar(int(input('Input number:')), -1)
 print (bin)
