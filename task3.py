@@ -5,37 +5,6 @@
 # [1.1, 1.2, 3.1, 5.17, 10.02] => 0.18 или 18
 # [4.07, 5.1, 8.2444, 6.98] - 0.91 или 91
 
-# numbers:int = [1.1, 1.2, 3.1, 5.17, 10.02]
-# print (numbers)
-
-# numbers2= []
-# for i in numbers:
-#     numbers2.append(int(str(i).split('.')[1]))
-# print (numbers2) 
-
-# # def find_dif(numbers2):
-# #     dif = 0
-# #     # maxim = max(numbers2)
-# #     # minim = min(numbers2)
-# #     print (maxim, minim)
-# #     if int(maxim) < 10:
-# #         maxim = int(maxim) * 10
-# #         dif = int(maxim) - int(minim)
-# #     print(dif)
-# #     return dif
-
-# def find_dif(numbers2):
-#     i=0
-#     if int(numbers2[i]) < 10:
-#         numbers2[i] = 5
-#             # numbers2.append(numbers2 [i] * 10)
-#         i+=1
-#     return numbers2
-# print (numbers2) 
-
-
-# find_dif(numbers2)
-
 nums = [1.1, 1.2, 3.1, 5.17, 10.01]
 
 def null_counter(num:float):
